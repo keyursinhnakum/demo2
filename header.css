@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 96%;
+    
+}
+body{
+    margin: 0;
+}
+.cssnav{
+    background-color: burlywood;
+    padding: 5px 0;
+    text-align: end;
+    align-items: end;
+
+}
+.header-box{
+    
+    padding: 19px;
+    min-height: 39px;
+    align-items: center;
+}
+.header-group {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.btn{
+    background-color:white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    
+}
+.btn:hover{
+    background-color: darkblue;
+    color: blueviolet;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo img{
+    width: 100px;
+}
